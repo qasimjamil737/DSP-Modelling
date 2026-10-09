@@ -1,0 +1,21 @@
+# Locally generated figures and result data
+/outputs/
+
+# Python caches, packaging, environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local scratch work (optional)
+/scratch/

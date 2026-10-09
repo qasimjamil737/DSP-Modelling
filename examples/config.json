@@ -1,0 +1,28 @@
+{
+  "chromatography": {
+    "column_length_cm": 10.0,
+    "column_diameter_cm": 1.0,
+    "bed_porosity": 0.40,
+    "flow_ml_min": 1.0,
+    "feed_mg_ml": 1.0,
+    "capacity_mg_ml_solid": 50.0,
+    "langmuir_affinity_ml_mg": 2.0,
+    "ldf_rate_per_min": 0.035,
+    "dispersion_cm2_min": 0.03,
+    "cells": 60
+  },
+  "ufdf": {
+    "starting_volume_l": 5.0,
+    "target_volume_l": 1.0,
+    "protein_g_l": 5.0,
+    "impurity_g_l": 1.0,
+    "membrane_area_m2": 0.10,
+    "flux_l_m2_h": 30.0,
+    "protein_sieving": 0.001,
+    "impurity_sieving": 0.90,
+    "diafiltration_volumes": 5.0
+  },
+  "flow_multipliers": [0.5, 0.75, 1.0, 1.5, 2.0],
+  "ldf_multipliers": [0.5, 1.0, 2.0],
+  "grid_cells": [30, 60, 120]
+}
